@@ -6,7 +6,7 @@ services:
       - key: PORT
         value: "5000"
       - key: MONGO_URI
-        value: "mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/bearstatedb?retryWrites=true&w=majority"
+        value: mongodb+srv://bradmurray72:<db_password>@bearstateauto.jmoqkgn.mongodb.net/?retryWrites=true&w=majority&appName=BearStateAuto
     ports:
       - port: 5000
         protocol: http
